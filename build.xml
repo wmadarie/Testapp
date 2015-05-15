@@ -2,7 +2,7 @@
 <project name="AntExample1" default="war">
 
     <path id="compile.classpath">
-        <fileset dir="WEB-INF/lib">
+        <fileset dir="simple-servlet-master/WEB-INF/lib">
             <include name="*.jar"/>
         </fileset>
     </path>
@@ -12,21 +12,21 @@
     </target>
 
     <target name="compile" depends="init" >
-        <javac destdir="WEB-INF/classes" srcdir="src">
+        <javac destdir="simple-servlet-master/WEB-INF/classes" srcdir="simple-servlet-master/src">
             <classpath refid="compile.classpath"/>
         </javac>
     </target>
 
     <target name="war" depends="compile">
-        <war destfile="dist/app.war" webxml="WEB-INF/web.xml">
-            <fileset dir="WEB-INF"/>
-            <lib dir="WEB-INF/lib"/>
-            <classes dir="WEB-INF/classes"/>
+        <war destfile="dist/app2.war" webxml="simple-servlet-master/WEB-INF/web.xml">
+            <fileset dir="simple-servlet-master/WEB-INF"/>
+            <lib dir="simple-servlet-master/WEB-INF/lib"/>
+            <classes dir="simple-servlet-master/WEB-INF/classes"/>
         </war>
     </target>
 
     <target name="clean">
-        <delete dir="dist" />
+        <delete dir="simple-servlet-master/dist" />
         <delete dir="build" />
     </target>
 
