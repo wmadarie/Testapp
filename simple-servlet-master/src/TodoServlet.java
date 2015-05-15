@@ -58,7 +58,7 @@ public class TodoServlet extends HttpServlet {
     // Print out HTML response
     out.println("<html>");
     out.println("<head>");
-    out.println("<title>Todo List</title>");
+    out.println("<title>Wie is</title>");
     out.println("</head>");
     out.println("<body>");
     out.println("<h1>Todo List Database</h1>");
