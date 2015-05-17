@@ -58,10 +58,10 @@ public class TodoServlet extends HttpServlet {
     // Print out HTML response
     out.println("<html>");
     out.println("<head>");
-    out.println("<title>Wie is waar op</title>");
+    out.println("<title>Wie is waar op Ibiza</title>");
     out.println("</head>");
     out.println("<body>");
-    out.println("<h1>Wie is waar op pizza</h1>");
+    out.println("<h1>Wie is waar op Ibiza</h1>");
     out.println("<table border='1' cellpadding='5'>");
     out.println("<tr>");
     out.println("<th>Item ID</th>");
