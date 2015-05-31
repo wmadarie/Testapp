@@ -2,14 +2,14 @@ require 'rubygems'
 require 'selenium-webdriver'
 
 def setup
-  @headless = Headless.new
-  @headless.start
-  @driver = Selenium::WebDriver.for :firefox
+  headless = Headless.new
+  headless.start
+  driver = Selenium::WebDriver.for :firefox
 end
 
 def teardown
-  @driver.quit
-  @headless.destroy
+  driver.quit
+  headless.destroy
 end
 
 def run
