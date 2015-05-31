@@ -1,4 +1,4 @@
-require 'selenium-webdriver'
+require 'selenium'
 require 'rspec/expectations'
 include RSpec::Matchers
 
