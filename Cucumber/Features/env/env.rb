@@ -1,3 +1,5 @@
+require 'headless'
+
 Before('@selenium') do
   if ENV["SELENIUM_HEADLESS"] == 'true'
     require "headless"
