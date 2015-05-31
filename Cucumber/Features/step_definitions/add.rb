@@ -1,18 +1,24 @@
 require 'rubygems'
-require 'watir-webdriver'
+require 'selenium-webdriver'
+
+driver = Selenium::WebDriver.for :Xvfb
+
+
+
+
+puts driver.title
 
 
 Given(/^I am on the EclipseIT Ibiza page$/) do
-  browser = Watir::Browser.new
-  browser.goto 'http://eclvm04.cloudapp.net:8080/app2/example'
+  driver.navigate.to "http://eclvm04.cloudapp.net:8080/app2/example"
 end
 
 When(/^I press button add$/) do
-  input = wait.until {
-      element = browser.find_element(:name, "deleteitem")
-      element if element.displayed?
-  }
-  input.send_keys("TestTestTest")
+
+element = driver.find_element(:name, 'deleteitem')
+element.send_keys "TESTTESTTEST!"
+element.submit
+
 end
 
 Then(/^An item is added to the list$/) do

@@ -70,8 +70,8 @@
       <file leaf-file-name="add.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85714287" vertical-offset="0" max-vertical-offset="480">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0989011" vertical-offset="0" max-vertical-offset="570">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -112,8 +112,8 @@
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/simple-servlet-master/WEB-INF/classes/TodoServlet.class" />
         <option value="$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java" />
-        <option value="$PROJECT_DIR$/Cucumber/Features/env/env.rb" />
         <option value="$PROJECT_DIR$/Cucumber/Features/test/test.feature" />
+        <option value="$PROJECT_DIR$/Cucumber/Features/env/env.rb" />
         <option value="$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb" />
       </list>
     </option>
@@ -686,14 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cucumber/Features/env/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="240">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cucumber/Features/test/test.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="195">
@@ -702,10 +694,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Cucumber/Features/env/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85714287" vertical-offset="0" max-vertical-offset="480">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0989011" vertical-offset="0" max-vertical-offset="570">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
           <folding />
         </state>
       </provider>
