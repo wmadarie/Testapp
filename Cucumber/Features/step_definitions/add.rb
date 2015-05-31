@@ -1,8 +1,13 @@
-require 'selenium'
+require 'selenium-webdriver'
+driver = Selenium::WebDriver.for :firefox
+
+
+
+
 
 
 Given(/^I am on the EclipseIT Ibiza page$/) do
-  @driver.get 'http://eclvm04.cloudapp.net:8080/app2/example'
+  driver.navigate.to 'http://eclvm04.cloudapp.net:8080/app2/example'
 end
 
 When(/^I press button add$/) do
@@ -15,4 +20,5 @@ end
 
 Then(/^An item is added to the list$/) do
   driver.find_element(:value, 'Delete item by ID').click
+  driver.quit
 end
