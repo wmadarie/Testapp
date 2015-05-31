@@ -1,4 +1,4 @@
-require 'selenium/webdriver'
+require 'selenium'
 require 'selenium/client'
 require 'selenium/server'
 
