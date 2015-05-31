@@ -1,4 +1,5 @@
-require "selenium"
+require "rubygems"
+require "selenium-webdriver"
 driver = Selenium::WebDriver.for :firefox
 
 Given(/^I am on the EclipseIT Ibiza page$/) do
