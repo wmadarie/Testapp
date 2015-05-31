@@ -1,10 +1,20 @@
-require 'rubygems'
+require 'selenium-webdriver'
+require 'rspec/expectations'
+include RSpec::Matchers
 
+@before
+def setup
+  @driver = Selenium::WebDriver.for :firefox
+end
+
+@after
+def teardown
+  @driver.quit
+end
 
 Given(/^I am on the EclipseIT Ibiza page$/) do
-  import webbrowser
-  webbrowser.open_new("http://eclvm04.cloudapp.net:8080/app2/example")
-
+  @driver.get 'http://eclvm04.cloudapp.net:8080/app2/example'
+  @driver.save_screenshot 'example1.png'
 end
 
 When(/^I press button add$/) do
