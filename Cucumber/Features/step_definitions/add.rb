@@ -5,10 +5,10 @@ require 'headless'
   headless = Headless.new
   headless.start
   driver = Selenium::WebDriver.for :firefox
-
+  driver.navigate.to "http://eclvm04.cloudapp.net:8080/app2/example"
 
 Given(/^I am on the EclipseIT Ibiza page$/) do
-  driver.navigate.to "http://eclvm04.cloudapp.net:8080/app2/example"
+
 end
 
 When(/^I press button add$/) do
