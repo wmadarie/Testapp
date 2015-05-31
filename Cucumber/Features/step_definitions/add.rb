@@ -16,7 +16,7 @@ element.send_keys "TESTTESTTEST!"
 end
 
 Then(/^An item is added to the list$/) do
-  driver.find_element(:id, 'submi').click
+  driver.find_element(:id, 'submit').click
   driver.quit
 end
 
