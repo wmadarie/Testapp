@@ -1,6 +1,4 @@
 require 'selenium'
-require 'rspec/expectations'
-include RSpec::Matchers
 
 @before
 def setup
