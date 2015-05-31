@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db4beea2-4fa4-4cbf-874a-cfd5f85f9c23" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cucumber/Features/test/test.feature" afterPath="$PROJECT_DIR$/Cucumber/Features/test/test.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Testapp.iws" />
     <ignored path=".idea/workspace.xml" />
