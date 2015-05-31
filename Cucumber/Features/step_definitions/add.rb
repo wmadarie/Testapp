@@ -5,8 +5,6 @@ require 'watir-webdriver'
 Given(/^I am on the EclipseIT Ibiza page$/) do
   browser = Watir::Browser.new
   browser.goto 'http://eclvm04.cloudapp.net:8080/app2/example'
-
-
 end
 
 When(/^I press button add$/) do
