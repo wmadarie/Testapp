@@ -1,4 +1,6 @@
-require 'selenium'
+require 'selenium/webdriver'
+require 'selenium/client'
+require 'selenium/server'
 
 
 
@@ -18,3 +20,8 @@ Then(/^An item is added to the list$/) do
   driver.find_element(:value, 'Delete item by ID').click
   driver.quit
 end
+
+
+
+
+

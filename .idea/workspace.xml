@@ -70,8 +70,8 @@
       <file leaf-file-name="add.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62637365" vertical-offset="0" max-vertical-offset="455">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.06593407" vertical-offset="0" max-vertical-offset="495">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -704,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62637365" vertical-offset="0" max-vertical-offset="455">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.06593407" vertical-offset="0" max-vertical-offset="495">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
         </state>
       </provider>
