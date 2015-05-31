@@ -2,13 +2,11 @@ require 'rubygems'
 require 'selenium-webdriver'
 require 'headless'
 
+Given(/^I am on the EclipseIT Ibiza page$/) do
   headless = Headless.new
   headless.start
   driver = Selenium::WebDriver.for :firefox
   driver.navigate.to "http://eclvm04.cloudapp.net:8080/app2/example"
-
-Given(/^I am on the EclipseIT Ibiza page$/) do
-
 end
 
 When(/^I press button add$/) do
