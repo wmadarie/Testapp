@@ -1,6 +1,10 @@
 <?xml version="1.0" ?>
 <project name="AntExample1" default="war">
 
+    <presetdef name="javac">
+        <javac includeantruntime="false" />
+    </presetdef>
+
     <path id="compile.classpath">
         <fileset dir="simple-servlet-master/WEB-INF/lib">
             <include name="*.jar"/>
