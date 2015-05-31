@@ -11,11 +11,9 @@ Given(/^I am on the EclipseIT Ibiza page$/) do
 end
 
 When(/^I press button add$/) do
-
-element = driver.find_element(:name, 'deleteitem')
+element = driver.find_element(:id, 'input')
 element.send_keys "TESTTESTTEST!"
 element.submit
-
 end
 
 Then(/^An item is added to the list$/) do

@@ -80,7 +80,7 @@ public class TodoServlet extends HttpServlet {
     
     // Create form for adding new items
     out.println("<form action='" + request.getRequestURI() + "' method=post>");
-    out.println("<input type=text size=40 name=additem>  ");
+    out.println("<input type=text size=40 name=additem id='input'>  ");
     out.println("<input type=submit id='submit' value='Add new item'>");
     out.println("</form>");
     
