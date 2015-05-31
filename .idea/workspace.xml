@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db4beea2-4fa4-4cbf-874a-cfd5f85f9c23" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb" afterPath="$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cucumber/Features/test/test.feature" afterPath="$PROJECT_DIR$/Cucumber/Features/test/test.feature" />
     </list>
     <ignored path="Testapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cucumber/Features/test/test.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22435898" vertical-offset="0" max-vertical-offset="468">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="195">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="add.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="450">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.72527474" vertical-offset="0" max-vertical-offset="455">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,8 +113,8 @@
         <option value="$PROJECT_DIR$/simple-servlet-master/WEB-INF/classes/TodoServlet.class" />
         <option value="$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java" />
         <option value="$PROJECT_DIR$/Cucumber/Features/env/env.rb" />
-        <option value="$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb" />
         <option value="$PROJECT_DIR$/Cucumber/Features/test/test.feature" />
+        <option value="$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb" />
       </list>
     </option>
   </component>
@@ -695,18 +694,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb">
+    <entry file="file://$PROJECT_DIR$/Cucumber/Features/test/test.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="450">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="195">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cucumber/Features/test/test.feature">
+    <entry file="file://$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22435898" vertical-offset="0" max-vertical-offset="468">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.72527474" vertical-offset="0" max-vertical-offset="455">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
