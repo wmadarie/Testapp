@@ -1,4 +1,4 @@
-require 'selenium-webdriver'
+require 'selenium'
 driver = Selenium::WebDriver.for :firefox
 
 
