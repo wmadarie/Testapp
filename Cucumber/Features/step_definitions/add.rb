@@ -1,7 +1,4 @@
-require 'selenium/webdriver'
-require 'selenium/client'
-require 'selenium/server'
-
+require 'selenium'
 
 
 Given(/^I am on the EclipseIT Ibiza page$/) do
