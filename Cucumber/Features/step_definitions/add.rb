@@ -19,7 +19,7 @@ element.submit
 end
 
 Then(/^An item is added to the list$/) do
-  driver.find_element(:value, 'Delete item by ID').click
+  driver.find_element(:id, 'submit').click
   driver.quit
 end
 
