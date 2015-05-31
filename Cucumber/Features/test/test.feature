@@ -1,4 +1,4 @@
-Feature: Adding items to list
+Feature: Adding items to lists
 
 Scenario: Add button is present
 Given I am on the EclipseIT Ibiza page
