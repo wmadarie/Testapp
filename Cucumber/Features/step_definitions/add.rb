@@ -12,7 +12,6 @@ end
 
 Given(/^I am on the EclipseIT Ibiza page$/) do
   @driver.get 'http://eclvm04.cloudapp.net:8080/app2/example'
-  @driver.save_screenshot 'example1.png'
 end
 
 When(/^I press button add$/) do
