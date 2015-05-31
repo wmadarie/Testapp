@@ -1,22 +1,10 @@
 require 'rubygems'
 require 'selenium-webdriver'
+require 'headless'
 
-def setup
   headless = Headless.new
   headless.start
   driver = Selenium::WebDriver.for :firefox
-end
-
-def teardown
-  driver.quit
-  headless.destroy
-end
-
-def run
-  setup
-  yield
-  teardown
-end
 
 
 Given(/^I am on the EclipseIT Ibiza page$/) do
