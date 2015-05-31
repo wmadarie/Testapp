@@ -1,14 +1,5 @@
 require 'selenium'
 
-@before
-def setup
-  @driver = Selenium::WebDriver.for :firefox
-end
-
-@after
-def teardown
-  @driver.quit
-end
 
 Given(/^I am on the EclipseIT Ibiza page$/) do
   @driver.get 'http://eclvm04.cloudapp.net:8080/app2/example'
