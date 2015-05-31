@@ -2,9 +2,6 @@ require 'selenium'
 require 'selenium/client'
 require 'selenium/server'
 
-server = Selenium::Server.new("selenium-server-standalone-2.19.0.jar", :background => true)
-server.start
-
 Given(/^I am on the EclipseIT Ibiza page$/) do
   driver.navigate.to 'http://eclvm04.cloudapp.net:8080/app2/example'
 end
