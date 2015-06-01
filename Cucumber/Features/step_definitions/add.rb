@@ -12,7 +12,7 @@ end
 
 When(/^I press button add$/) do
 element = driver.find_element(:id, 'input')
-element.send_keys "Hallo Mark!"
+element.send_keys "Demo in Cappelle"
 end
 
 Then(/^An item is added to the list$/) do
