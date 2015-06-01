@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db4beea2-4fa4-4cbf-874a-cfd5f85f9c23" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-servlet-master/WEB-INF/classes/TodoServlet.class" afterPath="$PROJECT_DIR$/simple-servlet-master/WEB-INF/classes/TodoServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java" afterPath="$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java" />
     </list>
     <ignored path="Testapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +50,8 @@
       <file leaf-file-name="TodoServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40625" vertical-offset="855" max-vertical-offset="1500">
-              <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.84375" vertical-offset="855" max-vertical-offset="1500">
+              <caret line="92" column="27" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -803,8 +803,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40625" vertical-offset="855" max-vertical-offset="1500">
-          <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.84375" vertical-offset="855" max-vertical-offset="1500">
+          <caret line="92" column="27" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
           <folding />
         </state>
       </provider>
