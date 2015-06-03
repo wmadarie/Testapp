@@ -67,7 +67,7 @@ public class TodoServlet extends HttpServlet {
     out.println("<th>Item ID</th>");
     out.println("<th>Item Description</th>");
     out.println("</tr>");
-    
+
     
     // Create form for adding new items
     out.println("<form action='" + request.getRequestURI() + "' method=post>");
@@ -81,8 +81,6 @@ public class TodoServlet extends HttpServlet {
     //out.println("<input type=submit value='Delete item by ID'>");
     //out.println("</form>");
     
-    //out.println("</body>");
-    //out.println("</html>");
 
 
     // Add each item into HTML table
@@ -94,6 +92,8 @@ public class TodoServlet extends HttpServlet {
       out.println("</tr>");
     }
     out.println("</table><p>");
+    out.println("</body>");
+    out.println("</html>");
 
 
   }
