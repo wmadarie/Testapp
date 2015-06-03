@@ -21,7 +21,7 @@ public class TodoServlet extends HttpServlet {
     
     // Establish connection to database and parse request parameters
     try {
-      app = new TodoList("test", "wikash", "mysql", "localhost", 3306, "web");
+      app = new TodoList("test1", "wikash", "mysql", "localhost", 3306, "web");
       String newitem = request.getParameter("additem");
       String deleteitem = request.getParameter("deleteitem");
       if (newitem != null) {
