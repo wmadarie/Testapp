@@ -70,10 +70,10 @@ public class TodoServlet extends HttpServlet {
     out.println("</form>");
 
     // Create form for deleting an item by ID
-    //out.println("<form action='" + request.getRequestURI() + "' method=post>");
+    out.println("<form action='" + request.getRequestURI() + "' method=post>");
     //out.println("<input type=text size=10 name=deleteitem>  ");
     //out.println("<input type=submit value='Delete item by ID'>");
-    //out.println("</form>");
+    out.println("</form>");
 
     out.println("<table border='1' cellpadding='5'>");
     out.println("<tr>");
