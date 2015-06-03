@@ -21,7 +21,7 @@ public class TodoServlet extends HttpServlet {
     
     // Establish connection to database and parse request parameters
     try {
-      app = new TodoList("test1", "wikash", "mysql", "localhost", 3306, "web");
+      app = new TodoList("test", "wikash", "mysql", "localhost", 3306, "web");
       String newitem = request.getParameter("additem");
       String deleteitem = request.getParameter("deleteitem");
       if (newitem != null) {
@@ -54,20 +54,7 @@ public class TodoServlet extends HttpServlet {
       e.printStackTrace();
       out.println("</p>SQL exception");
     }
-    
-    // Print out HTML response
-    out.println("<html>");
-    out.println("<head>");
-    out.println("<title>Wie is waar op Ibiza?</title>");
-    out.println("</head>");
-    out.println("<body>");
-    out.println("<h1>Wie is waar op Ibiza?</h1>");
-    out.println("<table border='1' cellpadding='5'>");
-    out.println("<tr>");
-    out.println("<th>Item ID</th>");
-    out.println("<th>Item Description</th>");
-    out.println("</tr>");
-    
+
     // Add each item into HTML table
     for (TodoItem item : todoList) {
       out.println("<tr>");
@@ -92,6 +79,19 @@ public class TodoServlet extends HttpServlet {
     
     //out.println("</body>");
     //out.println("</html>");
+
+
+    // Add each item into HTML table
+    for (TodoItem item : todoList) {
+      out.println("<tr>");
+      out.println("<td>" + item.getId() + "</td>");
+      out.println("<td>" + item.getItem() + "</td>");
+      out.println("</td>");
+      out.println("</tr>");
+    }
+    out.println("</table><p>");
+
+
   }
 
   public void doPost(HttpServletRequest request, HttpServletResponse response)
