@@ -30,8 +30,8 @@
       <file leaf-file-name="TodoServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.486692" vertical-offset="606" max-vertical-offset="1545">
-              <caret line="74" column="6" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.60076046" vertical-offset="606" max-vertical-offset="1545">
+              <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -875,8 +875,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.486692" vertical-offset="606" max-vertical-offset="1545">
-          <caret line="74" column="6" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.60076046" vertical-offset="606" max-vertical-offset="1545">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
           <folding />
         </state>
       </provider>
