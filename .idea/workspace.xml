@@ -4,8 +4,6 @@
     <list default="true" id="db4beea2-4fa4-4cbf-874a-cfd5f85f9c23" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-servlet-master/WEB-INF/classes/TodoServlet.class" afterPath="$PROJECT_DIR$/simple-servlet-master/WEB-INF/classes/TodoServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app2.war" afterPath="$PROJECT_DIR$/dist/app2.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java" afterPath="$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb" afterPath="$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Testapp.iws" />
@@ -34,8 +32,8 @@
       <file leaf-file-name="TodoServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.90043926" vertical-offset="615" max-vertical-offset="1500">
-              <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.8345534" vertical-offset="615" max-vertical-offset="1500">
+              <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -949,8 +947,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90043926" vertical-offset="615" max-vertical-offset="1500">
-          <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.8345534" vertical-offset="615" max-vertical-offset="1500">
+          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
           <folding />
         </state>
       </provider>
