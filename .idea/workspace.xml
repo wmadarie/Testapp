@@ -4,6 +4,8 @@
     <list default="true" id="db4beea2-4fa4-4cbf-874a-cfd5f85f9c23" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-servlet-master/WEB-INF/classes/TodoServlet.class" afterPath="$PROJECT_DIR$/simple-servlet-master/WEB-INF/classes/TodoServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app2.war" afterPath="$PROJECT_DIR$/dist/app2.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java" afterPath="$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb" afterPath="$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Testapp.iws" />
@@ -32,8 +34,8 @@
       <file leaf-file-name="TodoServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5490483" vertical-offset="615" max-vertical-offset="1500">
-              <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.90043926" vertical-offset="615" max-vertical-offset="1500">
+              <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -42,8 +44,8 @@
       <file leaf-file-name="add.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.8" vertical-offset="0" max-vertical-offset="480">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state vertical-scroll-proportion="-15.6" vertical-offset="0" max-vertical-offset="480">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -939,16 +941,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cucumber/Features/step_definitions/add.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.8" vertical-offset="0" max-vertical-offset="480">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state vertical-scroll-proportion="-15.6" vertical-offset="0" max-vertical-offset="480">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-servlet-master/src/TodoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5490483" vertical-offset="615" max-vertical-offset="1500">
-          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.90043926" vertical-offset="615" max-vertical-offset="1500">
+          <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
           <folding />
         </state>
       </provider>
