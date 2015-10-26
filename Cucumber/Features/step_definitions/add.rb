@@ -16,7 +16,7 @@ element.send_keys "This is an automatic test"
 end
 
 Then(/^An item is added to the list$/) do
-  driver.find_element(:id, 'submit').click
+  driver.find_element(:id, 'test').click
   driver.quit
 end
 
